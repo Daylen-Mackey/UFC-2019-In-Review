@@ -1474,7 +1474,7 @@
         <title>
           <formatted-text>
             <run fontcolor='#e4e4e4'>KO/TKO Breakdown</run>
-            <run>Æ&#10;</run>
+            <run fontalignment='1'>Æ&#10;</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1631,7 +1631,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#f2f2f2'>Significant Strikes Per Fighter Per Fight</run>
+            <run fontalignment='1' fontcolor='#f2f2f2'>Significant Strikes Per Fighter Per Fight</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1707,7 +1707,7 @@
       <layout-options>
         <title>
           <formatted-text>
-            <run fontcolor='#f2f2f2'>Total Take Downs vs Total Strikes</run>
+            <run fontalignment='1' fontcolor='#f2f2f2'>Total Take Downs vs Total Significant Strikes</run>
           </formatted-text>
         </title>
       </layout-options>
@@ -1728,7 +1728,7 @@
           <style-rule element='axis'>
             <encoding attr='space' class='0' field='[federated.18dxc891bu0edr1157yjf0cq330n].[none:TakeDowns:qk]' field-type='quantitative' max='11' min='-1' range-type='fixed' scope='rows' type='space' />
             <format attr='title' class='0' field='[federated.18dxc891bu0edr1157yjf0cq330n].[none:TakeDowns:qk]' scope='rows' value='Number of Take Downs' />
-            <format attr='title' class='0' field='[federated.18dxc891bu0edr1157yjf0cq330n].[none:Strikes:qk]' scope='cols' value='Number of Strikes' />
+            <format attr='title' class='0' field='[federated.18dxc891bu0edr1157yjf0cq330n].[none:Strikes:qk]' scope='cols' value='Number of Significant Strikes' />
             <encoding attr='space' class='0' field='[federated.18dxc891bu0edr1157yjf0cq330n].[none:Strikes:qk]' field-type='quantitative' max='379' min='-10' range-type='fixed' scope='cols' type='space' />
             <format attr='stroke-size' scope='rows' value='1' />
             <format attr='line-visibility' scope='rows' value='on' />
@@ -2002,8 +2002,8 @@
           </layout-options>
           <size maxheight='2100' minheight='2100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='56' type='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99200' id='55' param='vert' type='layout-flow' w='98482' x='759' y='400'>
+            <zone h='100000' id='62' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99200' id='61' param='vert' type='layout-flow' w='98482' x='759' y='400'>
                 <zone h='2050' id='10' type='title' w='98482' x='759' y='400'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2396,7 +2396,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='10' />
+      <active id='54' />
       <simple-id uuid='{87DD6ABE-1E40-4851-BCBA-8DF8FE808231}' />
     </window>
     <window class='worksheet' name='Sheet 7'>
